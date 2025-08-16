@@ -420,7 +420,7 @@
         }
 
         async function callAIAPI(transcript, prompt) {
-            const API_BASE_URL = 'http://localhost:3000';
+            const API_BASE_URL = 'https://meeting-summarizer-app-6cs5.onrender.com';
             
             const response = await fetch(`${API_BASE_URL}/api/summarize-groq`, {
                 method: 'POST',
